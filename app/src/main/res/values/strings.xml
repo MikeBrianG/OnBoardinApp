@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OnBoarding</string>
+    <string name="acompanhe_seu_trabalho_e_veja_seu_resultado">Acompanhe seu trabalho e veja seu resultado.</string>
+    <string name="mantenha_se_organizado_com_a_equipe">Mantenha-se organizado com a equipe.</string>
+    <string name="lembre_se_de_manter_o_controle_de_suas_realiza_es_profissionais">Lembre-se de manter o controle de suas realizações profissionais.</string>
+    <string name="skip">skip</string>
+    <string name="next">Next</string>
+    <string name="e_entenda_as_contribui_es_que_nossos_colegas_fazem_para_nossas_equipes_e_empresas">E entenda as contribuições que nossos colegas fazem para nossas equipes e empresas.</string>
+    <string name="seja_notificado_quando_o_trabalho_acontecer">Seja notificado quando o trabalho acontecer.</string>
+    <string name="login_in">Login in</string>
+    <string name="assuma_o_controle_das_notifica_es_colabore_ao_vivo_ou_no_seu_pr_prio_tempo">Assuma o controle das notificações, colabore ao vivo ou no seu próprio tempo.</string>
+    <string name="login">LOGIN</string>
+    <string name="username">USERNAME</string>
+    <string name="backbutton"><![CDATA[<]]></string>
+    <string name="password">PASSWORD</string>
+    <string name="entre_com_seu_nome_de_usu_rio_e_senha">Entre com seu nome de usuário e senha.</string>
+    <string name="bem_vindo_de_volta">Bem-vindo de volta!</string>
+    <string name="hint_password_login_screnn">PASSWORD</string>
+</resources>

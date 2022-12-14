@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_app"
+    tools:context=".view.onboarding.ThirdScreenActivity">
+
+    <ImageView
+        android:id="@+id/manInterviewThirdScreen"
+        android:layout_width="288dp"
+        android:layout_height="337dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/candidate_interview_3" />
+
+    <ImageView
+        android:id="@+id/swipeDotThirdScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manInterviewThirdScreen"
+        app:srcCompat="@drawable/swipe_dot_third_screen" />
+
+    <TextView
+        android:id="@+id/tittleThirdScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/seja_notificado_quando_o_trabalho_acontecer"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swipeDotThirdScreen" />
+
+    <TextView
+        android:id="@+id/descriptionThirdScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assuma_o_controle_das_notifica_es_colabore_ao_vivo_ou_no_seu_pr_prio_tempo"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="26dp"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tittleThirdScreen" />
+
+    <Button
+        android:id="@+id/loginInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="@string/login_in"
+        android:textStyle="bold"
+        app:cornerRadius="30dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionThirdScreen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
